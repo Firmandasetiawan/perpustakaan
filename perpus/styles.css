@@ -1,0 +1,487 @@
+/* CSS */
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item.active a {
+    font-weight: bold;
+}
+
+.content {
+    padding: 40px 0;
+}
+
+.footer {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.book-table th,
+.book-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.book-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 40px 0;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+/* CSS untuk style tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* CSS untuk style header dan footer */
+.header, .footer {
+    background-color: #8FBC8F;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* CSS untuk style container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* CSS untuk style link navigasi */
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* CSS untuk style tombol */
+button {
+    background-color: #090909;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0beb61;
+}
+/* CSS untuk style tabel konten */
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+    border-radius: 10px; /* Mengatur radius sudut */
+}
+
+.content-table td {
+    padding: 20px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.content-table h2 {
+    margin-bottom: 10px;
+}
+
+.content-table p {
+    margin-bottom: 20px;
+}
+
+/* Mengatur lebar seluruh isi tabel */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px; /* Memberikan jarak antara tabel dan sisi kontainer */
+}
+.logo {
+    background-color: #006446;
+    color: #fff;
+    padding: 10px 20px; /* Sesuaikan dengan kebutuhan Anda */
+    border-radius: 5px; /* Menambahkan sudut bulat pada kotak */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk menambah dimensi */
+}
+/* CSS untuk desain username */
+.username {
+    font-size: 18px; /* Ubah ukuran teks sesuai preferensi Anda */
+    font-weight: bold; /* Membuat teks menjadi tebal */
+    color: #333; /* Warna teks */
+    text-align: center;
+}
+
+/* CSS untuk tata letak tombol navigasi */
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Pusatkan tombol navigasi */
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 5px; /* Berikan jarak antara tombol navigasi */
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-item a:hover {
+    background-color: #f0f0f0;
+}
+
+/* CSS untuk garis horizontal */
+.nav-menu hr {
+    display: none; /* Sembunyikan garis */
+}
+
+/* CSS untuk garis horizontal pada setiap item kecuali yang terakhir */
+.nav-item:not(:last-child) {
+    border-right: 1px solid #ccc; /* Berikan garis kanan pada setiap item kecuali yang terakhir */
+}
+/* Dari admin_dashboard.php */
+.username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+}
+
+.profile {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 200px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.nav-menu {
+    position: relative;
+}
+
+.nav-menu .nav-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-item .profile {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+}
+
+.nav-item .profile a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-item:hover .profile {
+    display: block;
+}
+
+/* Dari tampil ulasan */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+/* CSS untuk tampilan anggota */
+.table-container {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00ff95;
+    border-color: #ffffff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #00ff95;
+    border-color: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}

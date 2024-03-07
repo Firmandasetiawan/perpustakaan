@@ -1,0 +1,70 @@
+.profile-img {
+    width: 30px; /* Sesuaikan ukuran gambar profil */
+    height: 30px; /* Sesuaikan ukuran gambar profil */
+    border-radius: 50%; /* Agar gambar profil menjadi lingkaran */
+}
+
+.header {
+    position: relative;
+}
+
+.profile {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 200px; /* Lebar maksimum dropdown */
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Mengatur agar dropdown muncul di sebelah kanan */
+}
+
+.nav-menu {
+    position: relative; /* Mengatur posisi relatif untuk kontainer menu */
+}
+
+.nav-menu .nav-item {
+    display: inline-block;
+    margin-right: 20px; /* Mengatur jarak antar menu */
+}
+
+.nav-item .profile {
+    position: absolute;
+    top: 100%; /* Mengatur agar dropdown muncul di bawah profile */
+    right: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+}
+
+.nav-item .profile a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-item:hover .profile {
+    display: block; /* Menampilkan dropdown saat profile dihover */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
